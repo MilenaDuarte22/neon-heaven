@@ -1,0 +1,15 @@
+anotações da milena. 
+basicamente uma documentação do que estou fazendo e também explicação para eu mesma sobre 
+algumas funcionalidades.
+
+movimentação:
+
+- inicia-se com inputs(botões), tendo os inputs já pre-definidos precisamos encontrar a 
+localização do obj player, levando em consideração que o game maker funciona como plano 
+cartesiano (2 1 0 -1 -2) para as 4 direções(que é o que estou trabalhando no momento).
+
+18/03 SHOTGUN
+a shotgun estava com um bug que as balas atingiam o personagem e davam dano por frame, ou seja algumas
+balas ficavam voando quando eu o personagem ja tinha morrido
+a solução encontrada foi: fazer todas ass instancias (balas) irem pra uma lista que elas tomam dano 
+- o codigo na entidade_enemy_pai explica melhor a situacao
